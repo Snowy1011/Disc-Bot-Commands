@@ -1,3 +1,8 @@
+import discord
+from discord.ext import commands, tasks
+
+bot = commands.Bot(command_prefix="<Prefix>")
+
 @bot.command(description="bans a user with specific reason (only admins)") #ban
 @commands.has_permissions(administrator=True)
 async def ban (ctx, member:discord.User=None, reason =None):
