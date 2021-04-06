@@ -17,5 +17,5 @@ This can be found in "Command-Help.py"
 This can be found in "Kick.py"
 
 # Basic Disc Bot
-This can be found in full_bot.py
+This can be found in full_bot.py and keep_alive.py!
 
